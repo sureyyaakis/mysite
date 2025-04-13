@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark {
+  @apply bg-dark-purple text-white;
+}
+
+.light {
+  @apply bg-white text-gray-800;
+}
+
+/* Gradient text */
+.gradient-text {
+  @apply text-transparent bg-clip-text;
+  background-image: linear-gradient(to right, #A15FAD, #F2809F);
+}
+
+.gradient-text-lemon-purple {
+  @apply text-transparent bg-clip-text;
+  background-image: linear-gradient(to right, #EFD958, #A15FAD);
+}
+
+/* Gradient backgrounds */
+.gradient-bg-lemon-purple {
+  background: linear-gradient(135deg, #EFD958 0%, #A15FAD 100%);
+}
+
+.gradient-bg-purple-pink {
+  background: linear-gradient(135deg, #A15FAD 0%, #F2809F 100%);
+}
+
+.gradient-bg-lemon-pink {
+  background: linear-gradient(135deg, #EFD958 0%, #F2809F 100%);
+}
+
+/* Button styles */
+.button-gradient {
+  @apply relative overflow-hidden text-white font-medium rounded-md;
+  background: linear-gradient(90deg, #A15FAD, #F2809F, #A15FAD);
+  background-size: 200% 100%;
+  animation: gradient-shift 5s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Custom animations */
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Custom transitions */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-dark-purple;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #A15FAD, #F2809F);
+  @apply rounded-lg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #EFD958, #F2809F);
+}
