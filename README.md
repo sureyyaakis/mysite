@@ -133,14 +133,5 @@ This project is open source and available under the MIT License.
 
 Contributions are always welcome! Please feel free to open issues or submit pull requests.
 
-## 💬 Contact
-
-If you have any questions or feedback, feel free to reach out:
-
-- GitHub: [sureyyaakis](https://github.com/sureyyaakis)
-- LinkedIn: [Sureyya Akis](https://linkedin.com/in/sureyyaakis)
-- Email: sureyya.akis@example.com
-
----
 
 ### Made with 💖 by Sureyya Akis
