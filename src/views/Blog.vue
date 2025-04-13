@@ -7,6 +7,15 @@ const router = useRouter();
 const blogPosts = ref([
   {
     id: 1,
+    title: 'Book Review: Crucial Conversations - Tools for Talking When Stakes are High',
+    slug: 'crucial-conversations-book-review',
+    date: 'April 15, 2025',
+    excerpt: 'A comprehensive review of "Crucial Conversations" and how its principles can transform your communication in high-stakes situations.',
+    category: 'Communication',
+    imageSrc: '/blog/crucial-conversations.jpg'
+  },
+  {
+    id: 2,
     title: 'Daily To-Do Lists: The Key to Staying Motivated',
     slug: 'daily-todo-list-motivation',
     date: 'April 13, 2025',
@@ -15,7 +24,7 @@ const blogPosts = ref([
     imageSrc: '/blog/todo-list.jpg'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Balancing Work and Personal Projects',
     slug: 'balancing-work-personal-projects',
     date: 'April 10, 2025',
@@ -24,7 +33,7 @@ const blogPosts = ref([
     imageSrc: '/blog/balance.jpg'
   },
   {
-    id: 3,
+    id: 4,
     title: 'The Power of Consistent Small Steps',
     slug: 'power-of-small-steps',
     date: 'April 5, 2025',

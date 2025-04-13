@@ -10,6 +10,151 @@ const slug = route.params.slug;
 const blogPosts = ref([
   {
     id: 1,
+    title: 'Book Review: Crucial Conversations - Tools for Talking When Stakes are High',
+    slug: 'crucial-conversations-book-review',
+    date: 'April 15, 2025',
+    author: 'Sureyya Akis',
+    category: 'Communication',
+    imageSrc: '/blog/crucial-conversations.jpg',
+    content: `
+      <p class="mb-6">In a world where the quality of our conversations often determines the quality of our relationships and results, learning how to effectively navigate high-stakes discussions becomes an invaluable skill. The book "Crucial Conversations: Tools for Talking When Stakes are High" by Kerry Patterson, Joseph Grenny, Ron McMillan, and Al Switzler offers a comprehensive framework for handling these challenging interactions.</p>
+      
+      <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">What Defines a Crucial Conversation?</h3>
+      
+      <p class="mb-6">The authors define crucial conversations as interactions where:</p>
+      
+      <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700 dark:text-gray-300">
+        <li><strong>Stakes are high</strong> - The outcome significantly impacts your life or relationships</li>
+        <li><strong>Opinions vary</strong> - Different perspectives and viewpoints exist</li>
+        <li><strong>Emotions run strong</strong> - The conversation triggers strong feelings</li>
+      </ul>
+      
+      <p class="mb-6">Think about conversations regarding relationship issues, performance reviews, addressing a loved one's harmful habits, or discussions about contentious topics. These all qualify as crucial conversations that can either strengthen bonds or damage relationships depending on how they're handled.</p>
+      
+      <div class="bg-light-lemon dark:bg-gray-700/50 p-6 rounded-lg mb-8">
+        <h4 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">Key Concept: The Fool's Choice</h4>
+        <p class="text-gray-700 dark:text-gray-300">One of the book's central ideas is that we often feel trapped between two bad options:</p>
+        <ol class="list-decimal pl-6 mt-3 space-y-2">
+          <li>Speak up and damage the relationship</li>
+          <li>Stay silent and damage the results</li>
+        </ol>
+        <p class="mt-3 text-gray-700 dark:text-gray-300">The authors argue this is a false dichotomy - with the right skills, we can achieve both candor and respect.</p>
+      </div>
+      
+      <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Core Principles and Tools</h3>
+      
+      <p class="mb-6">The book outlines several key principles and practical tools that can transform how you handle difficult conversations:</p>
+      
+      <ol class="list-decimal pl-6 mb-6 space-y-4 text-gray-700 dark:text-gray-300">
+        <li>
+          <strong>Start with Heart</strong>
+          <p>Begin by examining your own motives. What do you really want for yourself, others, and the relationship? Staying focused on these shared goals helps avoid defensive or aggressive behavior.</p>
+        </li>
+        <li>
+          <strong>Create Safety</strong>
+          <p>When people feel psychologically safe, they're more likely to share honestly. The authors introduce two critical components of safety:</p>
+          <ul class="list-disc pl-6 mt-2 mb-2 space-y-1">
+            <li><strong>Mutual Purpose</strong> - Establishing that you care about their goals and interests</li>
+            <li><strong>Mutual Respect</strong> - Demonstrating that you respect them as individuals</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Master Your Stories</strong>
+          <p>Between an action and our feeling about it lies the story we tell ourselves. By recognizing and questioning these interpretations, we can avoid jumping to conclusions and respond more effectively.</p>
+        </li>
+        <li>
+          <strong>STATE Your Path</strong>
+          <p>A framework for expressing your views:</p>
+          <ul class="list-disc pl-6 mt-2 mb-2 space-y-1">
+            <li><strong>S</strong>hare your facts</li>
+            <li><strong>T</strong>ell your story</li>
+            <li><strong>A</strong>sk for others' paths</li>
+            <li><strong>T</strong>alk tentatively</li>
+            <li><strong>E</strong>ncourage testing</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Learn to Look</strong>
+          <p>Develop awareness of when a conversation becomes crucial and notice when safety is at risk. Watch for signs like silence (withdrawing) or violence (controlling, labeling, attacking).</p>
+        </li>
+        <li>
+          <strong>Make It Safe</strong>
+          <p>When safety is compromised, step out of the content temporarily to restore it using techniques like apologizing, contrasting (clarifying what you do and don't intend), or creating a mutual purpose.</p>
+        </li>
+        <li>
+          <strong>Explore Others' Paths</strong>
+          <p>Use the AMPP method to encourage others to share their views:</p>
+          <ul class="list-disc pl-6 mt-2 mb-2 space-y-1">
+            <li><strong>A</strong>sk to get things rolling</li>
+            <li><strong>M</strong>irror to confirm feelings</li>
+            <li><strong>P</strong>araphrase to acknowledge the story</li>
+            <li><strong>P</strong>rime when you're getting nowhere</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Move to Action</strong>
+          <p>Turn conversations into results by clearly deciding who will do what by when, and how you'll follow up.</p>
+        </li>
+      </ol>
+      
+      <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Practical Applications</h3>
+      
+      <p class="mb-6">The principles from "Crucial Conversations" can transform various aspects of your life:</p>
+      
+      <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700 dark:text-gray-300">
+        <li><strong>Professional Settings</strong> - Improve team communication, handle performance issues, navigate organizational changes</li>
+        <li><strong>Personal Relationships</strong> - Address recurring conflicts, discuss sensitive topics, deepen intimacy through honest dialogue</li>
+        <li><strong>Self-Development</strong> - Become more aware of your emotional responses and communication patterns</li>
+        <li><strong>Conflict Resolution</strong> - Transform contentious situations into opportunities for mutual growth</li>
+      </ul>
+      
+      <div class="p-6 bg-gray-100 dark:bg-gray-700 rounded-lg mb-8">
+        <h4 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">The Silence-Violence Continuum</h4>
+        <p class="text-gray-700 dark:text-gray-300 mb-4">When feeling unsafe, people typically respond in one of two ways:</p>
+        <div class="flex flex-col md:flex-row gap-4">
+          <div class="flex-1 p-4 bg-white dark:bg-gray-600 rounded">
+            <h5 class="font-bold mb-2">Silence</h5>
+            <ul class="list-disc pl-4 space-y-1">
+              <li>Masking - Understating or selectively showing true opinions</li>
+              <li>Avoiding - Steering away from sensitive subjects</li>
+              <li>Withdrawing - Pulling out of the conversation altogether</li>
+            </ul>
+          </div>
+          <div class="flex-1 p-4 bg-white dark:bg-gray-600 rounded">
+            <h5 class="font-bold mb-2">Violence</h5>
+            <ul class="list-disc pl-4 space-y-1">
+              <li>Controlling - Forcing views on others</li>
+              <li>Labeling - Categorizing to dismiss ideas</li>
+              <li>Attacking - Belittling or threatening</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Critical Analysis</h3>
+      
+      <p class="mb-6">While "Crucial Conversations" offers powerful tools, it's worth noting a few considerations:</p>
+      
+      <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700 dark:text-gray-300">
+        <li><strong>Cultural Context</strong> - The book's approach is rooted in Western communication styles and may require adaptation for different cultural contexts</li>
+        <li><strong>Power Dynamics</strong> - In situations with significant power imbalances, safety may be difficult to establish without structural changes</li>
+        <li><strong>Practice Required</strong> - These skills demand consistent practice before they become second nature, especially in emotionally charged situations</li>
+      </ul>
+      
+      <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Conclusion: A Transformative Framework</h3>
+      
+      <p class="mb-6">"Crucial Conversations" provides a practical, research-based approach to navigating the conversations that matter most. By mastering these skills, you can transform potential conflicts into opportunities for understanding, growth, and stronger relationships.</p>
+      
+      <p class="mb-6">The most valuable insight from this book may be that we don't have to choose between honesty and respect. With practice and the right tools, we can create environments where difficult truths can be shared while maintaining and even strengthening relationships.</p>
+      
+      <div class="p-6 bg-gray-100 dark:bg-gray-700 rounded-lg">
+        <h4 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">Key Takeaway</h4>
+        <p class="italic text-lg text-center text-gray-700 dark:text-gray-300">"The single biggest problem in communication is the illusion that it has taken place." - George Bernard Shaw</p>
+      </div>
+    `,
+  },
+  {
+    id: 2,
     title: 'Daily To-Do Lists: The Key to Staying Motivated',
     slug: 'daily-todo-list-motivation',
     date: 'April 13, 2025',
@@ -119,7 +264,7 @@ const blogPosts = ref([
     `,
   },
   {
-    id: 2,
+    id: 3,
     title: 'Balancing Work and Personal Projects',
     slug: 'balancing-work-personal-projects',
     date: 'April 10, 2025',
@@ -129,7 +274,7 @@ const blogPosts = ref([
     content: '<p>This is a placeholder for the "Balancing Work and Personal Projects" blog post content.</p>',
   },
   {
-    id: 3,
+    id: 4,
     title: 'The Power of Consistent Small Steps',
     slug: 'power-of-small-steps',
     date: 'April 5, 2025',
