@@ -7,6 +7,15 @@ const router = useRouter();
 const blogPosts = ref([
   {
     id: 1,
+    title: "What's a Lean In Circle? (And Why I Love Mine)",
+    slug: 'lean-in-circle-experience',
+    date: 'April 18, 2025',
+    excerpt: 'Discover how joining a Lean In Circle can provide community, growth, and support during your personal and professional journey.',
+    category: 'Personal Growth',
+    imageSrc: '/blog/lean-in-circle.jpg'
+  },
+  {
+    id: 2,
     title: 'Book Review: Crucial Conversations - Tools for Talking When Stakes are High',
     slug: 'crucial-conversations-book-review',
     date: 'April 15, 2025',

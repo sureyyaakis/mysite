@@ -10,6 +10,106 @@ const slug = route.params.slug;
 const blogPosts = ref([
   {
     id: 1,
+    title: "What's a Lean In Circle? (And Why I Love Mine)",
+    slug: 'lean-in-circle-experience',
+    date: 'April 18, 2025',
+    author: 'Sureyya Akis',
+    category: 'Personal Growth',
+    imageSrc: '/blog/lean-in-circle.jpg',
+    content: `
+      <p class="mb-6">Let's be real—navigating your 20s (or any phase of adulthood tbh) can feel like you're trying to figure out life, work, relationships, and <em>literally everything</em> else... all at once. That's where I found something surprisingly amazing: <strong>Lean In Circles</strong>.</p>
+      
+      <p class="mb-6">I first heard about them from a friend who casually dropped "my circle said the same thing" in conversation. I was like—wait, what circle? Is this a book club? A girl gang? A secret society?</p>
+      
+      <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">So, What <em>Is</em> a Lean In Circle?</h3>
+      
+      <p class="mb-6">A Lean In Circle is a small group (like 8 to 12 people max) who meet regularly—online or in person—to talk about life, careers, growth, and everything in between. Think: goal-setting, honest convos, skill-building, and hyping each other up when the world feels a little too loud.</p>
+      
+      <p class="mb-6">These circles are part of the Lean In movement started by Sheryl Sandberg (you might've read her book or at least heard the name), but they've grown into this global thing where <em>real women</em> support each other through <em>real stuff</em>.</p>
+      
+      <div class="bg-light-lemon dark:bg-gray-700/50 p-6 rounded-lg mb-8">
+        <h4 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">What It's Like Being in a Circle</h4>
+        <p class="text-gray-700 dark:text-gray-300">I was a little nervous at first—like, do I need to have my life together to join? (Spoiler: no one does). But from the first meeting, it felt like a breath of fresh air.</p>
+        <p class="mt-3 text-gray-700 dark:text-gray-300">One girl talked about being scared to ask for a promotion. Another shared how she's building her side hustle into a full-time gig. We laughed, got vulnerable, and left each call with legit action steps. No pressure, no competition—just real support.</p>
+        <p class="mt-3 italic text-gray-700 dark:text-gray-300">"I didn't realize how badly I needed women in my corner until I found this space."</p>
+      </div>
+      
+      <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Why You Might Want One Too</h3>
+      
+      <p class="mb-6">There are so many reasons to consider joining a Lean In Circle:</p>
+      
+      <ul class="list-disc pl-6 mb-6 space-y-2 text-gray-700 dark:text-gray-300">
+        <li>You want a safe space to talk about big goals, burnout, and boundary-setting</li>
+        <li>You're into the idea of <em>community over competition</em></li>
+        <li>You want people who will remind you you're a boss (even on your off days)</li>
+        <li>You just like the idea of connecting with other women who get it</li>
+      </ul>
+      
+      <p class="mb-6">I've found that having this dedicated space to discuss career challenges, personal growth, and life transitions has been invaluable. It's a unique blend of mentorship, friendship, and accountability that's difficult to find elsewhere.</p>
+      
+      <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">The Ripple Effect</h3>
+      
+      <p class="mb-6">Being part of a Lean In Circle doesn't just benefit you personally. I've noticed a ripple effect that extends to:</p>
+      
+      <ol class="list-decimal pl-6 mb-6 space-y-4 text-gray-700 dark:text-gray-300">
+        <li>
+          <strong>Your Confidence</strong>
+          <p>Regularly articulating your challenges and receiving constructive feedback builds a quiet confidence that others notice.</p>
+        </li>
+        <li>
+          <strong>Your Workplace</strong>
+          <p>As you develop better communication skills and boundary-setting, you bring those improvements back to your team.</p>
+        </li>
+        <li>
+          <strong>Your Relationships</strong>
+          <p>The emotional intelligence you develop in your circle often translates to better personal relationships too.</p>
+        </li>
+        <li>
+          <strong>Your Future</strong>
+          <p>The connections you make can lead to unexpected opportunities, collaborations, and friendships that last beyond the circle.</p>
+        </li>
+      </ol>
+      
+      <div class="p-6 bg-gray-100 dark:bg-gray-700 rounded-lg mb-8">
+        <h4 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">Common Questions</h4>
+        <div class="space-y-4">
+          <div>
+            <p class="font-semibold text-gray-900 dark:text-white">Is this just for corporate women?</p>
+            <p class="text-gray-700 dark:text-gray-300">Not at all! Circles include entrepreneurs, creatives, students, stay-at-home moms, and women in all kinds of fields and life stages.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-900 dark:text-white">Do I need to commit a lot of time?</p>
+            <p class="text-gray-700 dark:text-gray-300">Most circles meet monthly for 1-2 hours, making it manageable even for busy schedules.</p>
+          </div>
+          <div>
+            <p class="font-semibold text-gray-900 dark:text-white">What if I'm really introverted?</p>
+            <p class="text-gray-700 dark:text-gray-300">Many circles create space for all personality types. You can participate at your own comfort level, and many introverts find these smaller group settings ideal.</p>
+          </div>
+        </div>
+      </div>
+      
+      <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">How to Join (Or Start!) a Circle</h3>
+      
+      <p class="mb-6">It's actually super easy. Just head to <a href="https://leanin.org/circles" class="text-primary hover:text-tertiary transition-colors" target="_blank">leanin.org/circles</a>, find a group near you (or start your own!), and take it from there. You don't need to be a CEO or know exactly what you're doing—you just have to be <em>you</em>.</p>
+      
+      <p class="mb-6">The website walks you through the entire process, provides resources for circle meetings, and connects you with the larger Lean In community.</p>
+      
+      <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Final Thought</h3>
+      
+      <p class="mb-6">Whether you're figuring out your first job, shifting careers, starting something new, or just want to be around empowering energy—Lean In Circles are that little extra support system we all deserve.</p>
+      
+      <p class="mb-6">In a world that often pits women against each other, these circles create intentional spaces for collaboration, growth, and genuine connection. And sometimes, that makes all the difference.</p>
+      
+      <div class="p-6 bg-gray-100 dark:bg-gray-700 rounded-lg">
+        <h4 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">Ready to Find Your People?</h4>
+        <p class="text-center">
+          <a href="https://leanin.org/circles" class="inline-block px-6 py-3 bg-primary text-white rounded-lg hover:bg-tertiary transition-colors mt-2" target="_blank">Check out Lean In Circles</a>
+        </p>
+      </div>
+    `,
+  },
+  {
+    id: 2,
     title: 'Book Review: Crucial Conversations - Tools for Talking When Stakes are High',
     slug: 'crucial-conversations-book-review',
     date: 'April 15, 2025',
@@ -154,7 +254,7 @@ const blogPosts = ref([
     `,
   },
   {
-    id: 2,
+    id: 3,
     title: 'Daily To-Do Lists: The Key to Staying Motivated',
     slug: 'daily-todo-list-motivation',
     date: 'April 13, 2025',
@@ -264,7 +364,7 @@ const blogPosts = ref([
     `,
   },
   {
-    id: 3,
+    id: 4,
     title: 'Balancing Work and Personal Projects',
     slug: 'balancing-work-personal-projects',
     date: 'April 10, 2025',
@@ -301,13 +401,23 @@ function goBackToBlog() {
 }
 
 // Navigate to another blog post
-function navigateToBlogPost(slug) {
-  router.push({ name: 'BlogPost', params: { slug } });
+function navigateToBlogPost(newSlug) {
+  // Check if we're already on this route
+  if (route.params.slug === newSlug) {
+    // If we are, force a reload of the current component
+    router.replace({ path: `/blog`, query: { redirect: newSlug }})
+      .then(() => {
+        router.replace({ name: 'BlogPost', params: { slug: newSlug }});
+      });
+  } else {
+    // If not, simply navigate to the new blog post
+    router.push({ name: 'BlogPost', params: { slug: newSlug } });
+  }
 }
 </script>
 
 <template>
-  <div v-if="currentPost" class="min-h-screen pt-12 pb-20 bg-white dark:bg-dark-purple">
+  <div v-if="currentPost" :key="route.params.slug" class="min-h-screen pt-12 pb-20 bg-white dark:bg-dark-purple">
     <!-- Decorative elements -->
     <div class="absolute top-40 right-10 w-64 h-64 rounded-full bg-primary/10 blur-3xl"></div>
     <div class="absolute bottom-40 left-10 w-80 h-80 rounded-full bg-tertiary/10 blur-3xl"></div>
