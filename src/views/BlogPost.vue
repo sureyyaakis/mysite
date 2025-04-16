@@ -4,7 +4,16 @@ import { useRoute, useRouter } from 'vue-router';
 
 const route = useRoute();
 const router = useRouter();
-const slug = route.params.slug;
+import { watch } from 'vue';
+const slug = ref(route.params.slug);
+
+// Watch for changes in the route slug and update accordingly
+watch(
+  () => route.params.slug,
+  (newSlug) => {
+    slug.value = newSlug;
+  }
+);
 
 // Blog posts data
 const blogPosts = ref([
@@ -387,12 +396,12 @@ const blogPosts = ref([
 
 // Find the current blog post based on slug
 const currentPost = computed(() => {
-  return blogPosts.value.find(post => post.slug === slug) || null;
+  return blogPosts.value.find(post => post.slug === slug.value) || null;
 });
 
 // Get other posts for the "You might also like" section
 const relatedPosts = computed(() => {
-  return blogPosts.value.filter(post => post.slug !== slug).slice(0, 2);
+  return blogPosts.value.filter(post => post.slug !== slug.value).slice(0, 2);
 });
 
 // Navigate back to blog list
